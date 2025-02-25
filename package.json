@@ -1,0 +1,53 @@
+{
+  "name": "@vela-ventures/aosync-strategy",
+  "version": "0.1.1",
+  "description": "AOsync strategy for the Arweave Wallet Kit",
+  "repository": "",
+  "author": {
+    "name": "vela-ventures",
+    "email": "admin@vela.ventures",
+    "url": "https://vela.ventures/"
+  },
+  "contributors": [
+    "Artem Purundzhian <artempa1607@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "fmt": "prettier . --write"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@types/node": "^20.4.2",
+    "arconnect": "^1.0.4",
+    "arweave": "^1.12.2",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.3",
+    "vite-plugin-dts": "^3.2.0"
+  },
+  "dependencies": {
+    "@arweave-wallet-kit/core": "^0.1.1",
+    "@vela-ventures/ao-sync-sdk": "^1.1.12"
+  }
+}
