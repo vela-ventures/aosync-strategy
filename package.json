@@ -1,8 +1,7 @@
 {
   "name": "@vela-ventures/aosync-strategy",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "description": "AOsync strategy for the Arweave Wallet Kit",
-  "repository": "",
   "author": {
     "name": "vela-ventures",
     "email": "admin@vela.ventures",
@@ -49,5 +48,27 @@
   "dependencies": {
     "@arweave-wallet-kit/core": "^0.1.1",
     "@vela-ventures/ao-sync-sdk": "^1.1.12"
-  }
+  },
+  "homepage": "https://github.com/vela-ventures/aosync-strategy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vela-ventures/aosync-strategy.git"
+  },
+  "keywords": [
+    "arweave",
+    "arweave-js",
+    "arweave-sdk",
+    "ao",
+    "ao-sync",
+    "ao-sync-sdk",
+    "becon",
+    "beacon-wallet",
+    "react",
+    "web3",
+    "wallet",
+    "sdk",
+    "vela-ventures",
+    "wallet-sdk",
+    "@vela-ventures"
+  ]
 }
