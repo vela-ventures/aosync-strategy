@@ -25,15 +25,11 @@ export default class BeaconWallet implements Strategy {
     this.walletRef.reconnect();
   }
 
-  public async resumeSession?(): Promise<void> {
-    console.log('hello stop')
-  };
   public async connect(
     permissions: PermissionType[],
     appInfo?: AppInfo,
     gateway?: GatewayConfig
   ): Promise<void> {
-    console.log('wdf is this called again?')
     if (permissions) {
       console.warn(
         "[Arweave Wallet Kit] Beacon implicitly requires all permissions. Your `permissions` parameter will be ignored."
