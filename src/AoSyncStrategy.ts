@@ -10,7 +10,7 @@ import WalletClient from "@vela-ventures/ao-sync-sdk";
 import Transaction from "arweave/web/lib/transaction";
 import { SignatureOptions } from "arweave/web/lib/crypto/crypto-interface";
 
-export default class BeaconWallet implements Strategy {
+export default class AoSyncStrategy implements Strategy {
   public id: "beacon" = "beacon";
   public name = "Beacon";
   public description = "iOS based agent first wallet for AO";
@@ -61,7 +61,7 @@ export default class BeaconWallet implements Strategy {
     return this.walletRef.sign(transaction);
   }
 
-  public async getPermissions(): Promise<PermissionType[]> {
+  public async getPermissions() {
     return this.walletRef.getPermissions();
   }
 
