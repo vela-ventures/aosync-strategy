@@ -61,7 +61,7 @@ export default class AoSyncStrategy implements Strategy {
     return this.walletRef.sign(transaction);
   }
 
-  public async getPermissions(): Promise<PermissionType[]> {
+  public async getPermissions() {
     return this.walletRef.getPermissions();
   }
 
