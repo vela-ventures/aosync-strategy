@@ -1,3 +1,3 @@
-import BeaconWallet from "./Beacon";
+import AoSyncStrategy from "./AoSyncStrategy";
 
-export default BeaconWallet
+export default AoSyncStrategy
