@@ -1,6 +1,6 @@
 {
   "name": "@vela-ventures/aosync-strategy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "AOsync strategy for the Arweave Wallet Kit",
   "author": {
     "name": "vela-ventures",
@@ -47,6 +47,7 @@
   },
   "dependencies": {
     "@arweave-wallet-kit/core": "^0.1.1",
+    "@vela-ventures/ao-sync-sdk": "^1.1.15"
     "@vela-ventures/ao-sync-sdk": "workspace:*"
   },
   "homepage": "https://github.com/vela-ventures/aosync-strategy",
