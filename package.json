@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@arweave-wallet-kit/core": "^0.1.1",
-    "@vela-ventures/ao-sync-sdk": "^1.1.26"
+    "@vela-ventures/ao-sync-sdk": "^1.1.27"
   },
   "homepage": "https://github.com/vela-ventures/aosync-strategy",
   "repository": {
